@@ -1,0 +1,314 @@
+body{
+    margin:0%;
+    padding:0%;
+    background:linear-gradient(to top,rgb(50, 43, 43),rgb(13, 13, 170,0.3)),url(image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150vh;
+}
+.logo{
+    width:140px;
+    height:100px;
+    position: absolute;
+    top:4%;
+    left:5%;
+}
+.text{
+   color:#fff;
+   text-align: center;
+   padding-top:180px;}
+.text h1{
+
+
+    font-size: 130px;
+    position: relative;
+    filter: drop-shadow(3px 3px 5px black);
+
+}
+.text  p{
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    top:50%;
+    left:50%;
+    filter: drop-shadow(2px 2px 3px black);
+}
+.btn{
+    margin:70px auto 0;
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    top:65%;
+    left:45%;
+   transition: 0.5s;
+   
+}
+.btn a{
+    width: 100px;
+    text-decoration: none;
+    display:inline-flex;
+    margin:0 10px;
+    padding:12px 0;
+    color:#fff;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+    position:relative;
+    transition: color 1s;
+    z-index: 1;
+
+
+}
+
+.btn1:hover{
+    width:100%;
+    background: #fff;
+    color:black;
+    border: 2px solid black;
+    box-shadow: 2px 3px 5px black ;
+}
+
+.feature{
+    background-image: linear-gradient(to top,rgb(50, 43, 43),rgb(13, 13, 170,0.3)),url("image/bg3");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    padding:70px 0;
+    width:auto;
+    height:auto;
+    max-height: max-content;
+   
+
+}
+.text1{
+    text-align:center;
+    padding-bottom: 40px;
+}
+
+.text1 h1{
+    color:white;
+    font-size:65px ;
+    position: relative;
+   text-transform: capitalize;
+    align-items: center;
+    filter: drop-shadow(2px 3px 5px black);
+    
+   
+}
+.feature{
+    width: auto;
+    height:auto;
+}
+.animal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: 30px; */
+   
+}
+
+.animal-card {
+    text-align: center;
+    width: 22%; /* Adjust based on how many images you want in a row */
+    margin-bottom: 20px;
+    margin-left: 0%;
+
+
+}
+.animal-card h1{
+    font-size: 40px;
+    filter: drop-shadow(5px 5px 3px black);
+}
+.animal-card:hover{
+    width:30%;
+    height: 300px;
+    transform: rotateX('30deg')
+}
+
+.animal-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    cursor: pointer;
+}
+
+
+.names {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.content p{
+    color:#fff;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 3px;
+    background-color: rgb(11, 9, 9,0.5);
+    filter: blur(50%) ;
+     
+}
+/* waterfall page */
+.forestsection{
+    background-image:linear-gradient(to top,rgb(50, 43, 43),rgb(13, 13, 170,0.3)),url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg");
+    padding:70px 0;
+    width:auto;
+    /* height:auto; */
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+
+    
+.foresthead{
+    padding-bottom: 100px;
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
+    text-transform: capitalize;
+    filter: drop-shadow(3px 3px 5px black);
+
+}
+.waterfalls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+   
+}
+.water-card {
+    text-align: center;
+    width: 25%; /* Adjust based on how many images you want in a row */
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+
+}
+.water-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    cursor: pointer;
+}
+.water-hover:hover{
+    width:300px;
+    height:230px;
+
+}
+/* .mountains */
+.mountains{
+    background-image: linear-gradient(to top,rgb(50, 43, 43),rgb(13, 13, 170,0.3)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:70px 0;
+    padding-top: 30px;
+    width:auto;
+    height:100vh;
+    text-align: justify;
+    
+} 
+.mountain{
+    float: right;
+    width:400px;
+    height:300px;
+    cursor: pointer;
+
+}
+.data{
+    position: absolute;
+    width:90%;
+    left: 30px;
+    background-color:rgb(16, 10, 10,0.5);
+    margin:0 auto;
+    
+}
+
+.mountain:hover{
+    width:350px;
+
+}
+.data p{
+    color:#fff;
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    padding:20px;
+    background-color: black;
+    font-size: 20px;
+}
+/* plants */
+.plants{
+    
+     background:linear-gradient(to top,rgb(50, 43, 43),rgb(13, 13, 170,0.2)),url('https://miro.medium.com/v2/resize:fit:1400/1*x0vDKUdcRMx7kfsFGq689w.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:150vh;
+      padding: 70px 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+}
+.img-group{
+    float: right;
+    width: 500px; 
+    height: 400px; 
+    background-image:url(image/plant1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: 20s thanu infinite;
+    animation-delay: 3s;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+@keyframes thanu{
+
+  
+    25%{
+        background-image: url("https://thumbs.dreamstime.com/b/hands-child-holding-young-plants-back-soil-nature-park-growth-plant-hands-child-holding-young-plants-111399665.jpg");
+    }
+    55%{
+        background-image: url("https://www.rhs.org.uk/getmedia/6d578f16-24f9-4e01-99a1-e44fcd133052/header-image.jpg");
+    }
+    75%{
+        background-image: url("https://i.pinimg.com/736x/4b/c7/49/4bc749323fa577159ce972f9ebff4738.jpg");
+    }
+
+    100%{
+        background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gardeningexpress.co.uk%2Fananas-indoor-pineapple-plant&psig=AOvVaw1oaDb8bBqZSNHFPq1mxBEL&ust=1727627229093000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjM1JCH5ogDFQAAAAAdAAAAABBX");
+    }
+    
+    
+}
+.plant-content p
+{
+   
+    justify-content: center;
+    background-color: rgb(13, 11, 11,0.6);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 3px;
+    color:#fff;
+    border: 1px solid black;  
+}
+#preloader{
+    background:black url(image/preloader3.gif) no-repeat center center;
+    background-size:20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
